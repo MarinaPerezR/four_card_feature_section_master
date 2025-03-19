@@ -13,4 +13,12 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: var(--white);
+  margin: 0;
+  font-size: 15px;
+}
+
+.container {
+  width: 100%;
+  max-width: 375px;
+  margin: 0 auto;
 }
