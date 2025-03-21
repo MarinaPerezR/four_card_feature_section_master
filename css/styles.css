@@ -33,6 +33,23 @@ body {
   border-top-width: 5px;
 }
 
+h1 .first-line {
+  color: var(--grey-400);
+  font-weight: 200;
+}
+
+h1 .second-line {
+  color: var(--grey-500);
+  font-weight: 600;
+}
+
+header h3 {
+  color: var(--grey-500);
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 60px;
+}
+ 
 .card h2 {
   margin-top: 0;
   margin-bottom: 10px;
