@@ -26,11 +26,13 @@ body {
   align-items: center;
 }
 
-
 .container {
   width: 100%;
-  max-width: 375px;
+  height: auto;
+  max-width: 410px;
   margin: 0 auto;
+  padding: 20px;
+ 
 }
 
 .card {
@@ -41,6 +43,7 @@ body {
   margin-bottom: 40px;
   border: 0px solid transparent;
   border-top-width: 5px;
+  min-width: 280px;
 }
 
 h1 .first-line {
@@ -82,18 +85,22 @@ header h3 {
 
 .supervisor {
   border-top-color: var(--cyan);
+  width: 100%;
 }
 
 .team-builder {
   border-top-color: var(--red);
+  width: 100%;
 }
 
 .karma {
   border-top-color: var(--orange);
+  width: 100%;
 }
 
 .calculator {
   border-top-color: var(--blue);
+  width: 100%;
 }
 
 footer {
@@ -102,9 +109,10 @@ footer {
   margin-top: 80px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 912px) {
   .container {
     width: 100%;
+    height: auto;
     max-width: 1440px;
     padding: 40px;
     text-align: center;
@@ -119,7 +127,7 @@ footer {
     color: var(--grey-400);
     font-weight: 200;
   }
-  
+
   main {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -144,6 +152,7 @@ footer {
     align-self: center;
     justify-self: center;
     margin-bottom: -160px;
+
   }
 
   .supervisor {
